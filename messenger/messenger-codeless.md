@@ -9,7 +9,7 @@ Codeless, no coding work to integrate analytics on your Facebook chatbot, or Fac
 
 ## How to use it
 
-Here is a three steps guide to create a codeless project, which analyze the conversation between your fans page and your users without coding.
+Here is a 3-steps guide to create a codeless project, which analyze the conversation between your fans page and your users without coding.
 
 - step 0. Create a botimize project
 
