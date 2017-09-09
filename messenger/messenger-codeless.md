@@ -16,7 +16,7 @@ Here is a 3-steps guide to create a codeless project, which analyze the conversa
 ![codeless_step0](../imgs/codeless_step0.png "90%x")
 
 
-- step 1. find out your [page ID](https://www.facebook.com/help/1503421039731588) on your facebook page
+- step 1. Find out your [page ID](https://www.facebook.com/help/1503421039731588) on your facebook page
 
 ![codeless_step1](../imgs/codeless_step1.png "90%x")
 
