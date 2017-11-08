@@ -7,14 +7,14 @@ Use API key to create a new botimize object
   ```
 
 ## Log incoming messages:
- 
+
   ```python
   incoming_log = {
     'sender': {
       'id': 'UNIQUE_USER_ID',
       'name': 'USER_SCREEN_NAME'
     },
-    'content': {
+    'message': {
       'type': 'CONTENT_TYPE', #'text', 'image', 'audio', 'video', 'file', 'location'
       'text': 'CONTENT_TEXT'
     }
@@ -26,11 +26,11 @@ Use API key to create a new botimize object
 
   ```python
   outgoing_log = {
-    'receiver': {
+    'recipient': {
       'id': 'UNIQUE_USER_ID',
       'name': 'USER_SCREEN_NAME'
     },
-    'content': {
+    'message': {
       'type': 'CONTENT_TYPE', #'text', 'image', 'audio', 'video', 'file', 'location'
       'text': 'CONTENT_TEXT'
     }

@@ -6,7 +6,7 @@ Use API key to create a new botimize object
   ```
 
 ## Log incoming messages:
- 
+
   ```javascript
   app.post('/webhook', function (req, res)) {
     const incomingLog = {
@@ -14,7 +14,7 @@ Use API key to create a new botimize object
         id: 'UNIQUE_USER_ID',
         name: 'USER_SCREEN_NAME'
       },
-      content: {
+      message: {
         type: 'CONTENT_TYPE', // 'text', 'image', 'audio', 'video', 'file', 'location'
         text: 'CONTENT_TEXT'
       }
@@ -28,11 +28,11 @@ Use API key to create a new botimize object
 
   ```javascript
     const outgoingLog = {
-      receiver: {
+      recipient: {
         id: 'UNIQUE_USER_ID',
         name: 'USER_SCREEN_NAME'
       },
-      content: {
+      message: {
         type: 'CONTENT_TYPE', // 'text', 'image', 'audio', 'video', 'file', 'location'
         text: 'CONTENT_TEXT'
       }
